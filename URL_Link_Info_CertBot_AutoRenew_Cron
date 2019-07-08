@@ -1,0 +1,37 @@
+CertBot AutoRenew Cron Repo
+
+
+Link URL:
+
+https://github.com/readycomputingjames/certbot-autorenew-cron.git
+
+Clone:
+
+# git clone https://github.com/readycomputingjames/certbot-autorenew-cron.git
+
+
+Test:
+
+[jthipp@rcjamesworkpc GitHub]$ pwd
+/home/jthipp/Documents/Documentation/GitHub
+
+[jthipp@rcjamesworkpc GitHub]$ git clone https://github.com/readycomputingjames/certbot-autorenew-cron.git
+Cloning into 'certbot-autorenew-cron'...
+Username for 'https://github.com': readycomputingjames
+Password for 'https://readycomputingjames@github.com': 
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 17 (delta 6), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (17/17), done.
+
+[jthipp@rcjamesworkpc GitHub]$ cd certbot-autorenew-cron/
+
+[jthipp@rcjamesworkpc certbot-autorenew-cron]$ ls -l
+total 16
+-rw-rw-r-- 1 jthipp jthipp 1478 Jul  8 09:36 certbot_autorenew_cron.RHEL.sh
+-rw-rw-r-- 1 jthipp jthipp 1481 Jul  8 09:36 certbot_autorenew_cron.Ubuntu.sh
+-rw-rw-r-- 1 jthipp jthipp 3516 Jul  8 09:36 README.certbot-autorenew-cron.txt
+-rw-rw-r-- 1 jthipp jthipp  374 Jul  8 09:36 URL_Link_Info_CertBot_AutoRenew_Cron
+
+
