@@ -25,7 +25,8 @@
 
 LOGFILE="/var/log/apache2/certbot_autorenew_cron.log"
 
-create_log () {
+create_log () 
+{
 
    ### Setup Human-Readable Log File ###
 
@@ -38,7 +39,8 @@ create_log () {
 
 }
 
-stop_apache () {
+stop_apache () 
+{
 
    echo "Stopping Apache Service" >> $LOGFILE
    echo "" >> $LOGFILE
@@ -47,7 +49,8 @@ stop_apache () {
 
 }
 
-certbot_renew () {
+certbot_renew () 
+{
 
    echo "Running CertBot Renew" >> $LOGFILE
    echo "" >> $LOGFILE
@@ -56,7 +59,8 @@ certbot_renew () {
 
 }
 
-start_apache () {
+start_apache () 
+{
 
    echo "Starting Apache Service" >> $LOGFILE
    echo "" >> $LOGFILE
@@ -65,7 +69,8 @@ start_apache () {
 
 }
 
-main () {
+main () 
+{
 
    create_log
    stop_apache
